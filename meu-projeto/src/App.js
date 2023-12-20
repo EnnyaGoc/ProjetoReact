@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import SayMyName from './components/SayMyName';
+import Pessoa from './components/Pessoa';
 
 function App() {
 
-  const name = 'ennya'
-
-  const newName = name.toUpperCase()
-
-  function sum(a, b){
-    return a+b
-  }
-
-  const url = "https://via.placeholder.com/150"
+const nome = "maria"
   return (
     <div className="App">
-     <h1>Olá react!</h1>
-     <p> olá, {newName}</p>
-     <p>Soma: {sum(1, 2)}</p>
-     <img src={url} alt="imagem"></img>
+     
+     
+     <SayMyName nome = "ennya"/>
+     <SayMyName nome = "julia"/>
+     <SayMyName nome={nome} />
+     <Pessoa 
+        nome="ennya"
+        idade="21"
+        profissao="programadora"
+        foto="https://"
+     />
     </div>
   );
 }
