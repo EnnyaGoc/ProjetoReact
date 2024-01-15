@@ -1,0 +1,8 @@
+.list {
+    display: flex; /* um item do lado do outro */
+    list-style: none; /* sem a bolinha da lista */
+}
+
+.item{
+    margin-right: 1em;
+}
