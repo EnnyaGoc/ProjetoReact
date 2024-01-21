@@ -1,0 +1,11 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; /* inputs n ultrapassarem a area maxima da div q eles estao */
+  font-family: 'Open Sans', sans-serif;
+}
+
+html, body, #root{
+  background-color: #efefef;
+  height: 100%; /* ajuda a deixar o rodape colado no fim da pagina */
+}

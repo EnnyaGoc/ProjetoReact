@@ -1,0 +1,20 @@
+.container{
+    width: 1200px;
+    display: flex; /* posicionar os elementos mais facil*/
+    justify-content: space-between; /* espaçar os elementos igualmente na horizontal*/
+    margin: 0 auto; /* centraliza na tela */
+    flex-wrap: wrap; /* quando os elementos filhos ultrapassarem a largura, vao p baixo criando uma nova linha */
+}
+
+.min-height{
+    min-height: 75%; /* ocupar um grande espaço da tela */
+}
+
+.start{
+    justify-content: flex-start; /* colocar os conteudos no inicio */
+}
+
+.column{
+    flex-direction: column;
+    justify-content: flex-start;
+}
